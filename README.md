@@ -1,13 +1,13 @@
 # GPU_Tensorflow_Pytorch_ROS_docker
 A customized docker image that supports: 
-* GPU tensorflow 1.5 (python 2.7 and python 3.5) \
-* Pytorch 1.0 (python 2.7 and python 3.5) \
-* ROS Kinetic, Gazebo \ 
-* NVIDIA CUDA 9.0, CuDNN 7.0, NVIDIA-driver version 390 \
+* GPU tensorflow 1.5 (python 2.7 and python 3.5) 
+* Pytorch 1.0 (python 2.7 and python 3.5) 
+* ROS Kinetic, Gazebo
+* NVIDIA CUDA 9.0, CuDNN 7.0, NVIDIA-driver version 390
 * [Darknet](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects) (C++ object detection)
 
 ## Installation requirements
-* NVIDIA-GPU is available: tested with GTX 1080 Ti, NVS 4200M \
+* NVIDIA-GPU is available: tested with GTX 1080 Ti, NVS 4200M
 * Nvidia-docker is installed 
 Check 
 ```
@@ -49,7 +49,7 @@ bash attach_container.sh
 to log in the same container that we are running. 
 
 ## Manually install CuDNN 7.0 (inside the docker)
-Go to NVIDIA download to download cuDNN v7.4.2 (Dec 14, 2018), for CUDA 9.0 \
+Go to NVIDIA download to download cuDNN v7.4.2 (Dec 14, 2018), for CUDA 9.0
 (NOTE: Download both libCudnn7_7 and libCudnn7_dev as libCudnn7_dev depends on libCudnn7_7)
 
 Install:                                                                                                    
